@@ -1,0 +1,66 @@
+# =========================
+# Entornos virtuales Python
+# =========================
+venv/
+.venv/
+
+# =========================
+# Archivos generados por Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Pytest y cobertura
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+
+# =========================
+# Archivos del sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# =========================
+# Python / herramientas
+# =========================
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# =========================
+# Archivos sensibles o locales
+# =========================
+*.secret
+secrets/

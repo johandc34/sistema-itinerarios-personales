@@ -1,10 +1,16 @@
 from fastapi import FastAPI
 
+from app.api.routes.airports import router as airports_router
+
+
 app = FastAPI(
     title="Airport Service",
     description="Microservicio encargado de consultar y gestionar información de aeropuertos.",
     version="1.0.0"
 )
+
+
+app.include_router(airports_router)
 
 
 @app.get("/")
